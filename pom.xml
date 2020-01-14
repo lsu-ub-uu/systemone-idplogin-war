@@ -25,25 +25,22 @@
 		<version>1.0.2</version>
 	</parent>
 
-	<artifactId>diva</artifactId>
-	<version>3.4-SNAPSHOT</version>
+	<artifactId>systemone-idplogin-war</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>DiVA Cora</name>
+	<name>Systemone Idplogin</name>
 	<build>
-		<finalName>diva</finalName>
+		<finalName>systemoneidplogin</finalName>
 	</build>
 
 	<properties>
-		<therest.version>4.4.0</therest.version>
-		<divamixedstorage.version>3.3.0</divamixedstorage.version>
-		<servlet-api.version>4.0.1</servlet-api.version>
 	</properties>
 
 	<scm>
-		<connection>scm:git:https://github.com/lsu-ub-uu/diva-cora.git</connection>
-		<developerConnection>scm:git:https://github.com/lsu-ub-uu/diva-cora.git</developerConnection>
-		<url>https://github.com/lsu-ub-uu/diva-cora.git</url>
+		<connection>scm:git:https://github.com/lsu-ub-uu/systemone-idplogin-war.git</connection>
+		<developerConnection>scm:git:https://github.com/lsu-ub-uu/systemone-idplogin-war.git</developerConnection>
+		<url>https://github.com/lsu-ub-uu/systemone-idplogin-war.git</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -64,28 +61,5 @@
 
 	<dependencies>
 <!-- compile -->
-		<dependency>
-			<groupId>se.uu.ub.cora</groupId>
-			<artifactId>therest</artifactId>
-			<version>${therest.version}</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>se.uu.ub.cora</groupId>
-			<artifactId>divamixedstorage</artifactId>
-			<version>${divamixedstorage.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>${testng.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>${servlet-api.version}</version>
-			<scope>provided</scope>
-		</dependency>
 	</dependencies>
 </project>
